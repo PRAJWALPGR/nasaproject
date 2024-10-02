@@ -1,1 +1,121 @@
 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #eaeaea;
+  }
+  header {
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 50px;
+    display: flex; /* Use flexbox to arrange elements */
+    justify-content: space-between; /* Ensure text is on the left, image is on the right */
+    align-items: center; /* Center items vertically */
+    font-family: 'Times New Roman', serif;
+    font-size: 6.4px; /* Maintain the given font size */
+    padding: 0 20px; /* Add padding to create space */
+  }
+  
+  /* h1 styling */
+  h1 {
+    font-weight: 100;
+    margin-left: 40px; /* Ensure some space between text and the left edge */
+  }
+  
+  /* Image styling */
+  .logo img {
+    width: 35px; /* Adjust size of the image */
+    height: 35px; /* Maintain aspect ratio */
+    margin-right: 100px; /* Ensure some space between image and right edge */
+    border: 2px solid white;
+    border-radius: 50px;
+    background-size: cover;
+    transition: transform 0.3s ease;
+  }
+  .logo img:hover {
+    transform: scale(1.1);
+  }
+
+
+  
+  nav {
+    margin: 10px 0;
+    text-align: center;
+  }
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #4CAF50;
+    cursor: pointer;
+  }
+  section {
+    padding: 20px;
+    background-color: white;
+    margin: 10px auto;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    display: none; /* Initially hidden */
+  }
+  h2 {
+    color: #333;
+  }
+  div{
+    background-image: url();
+    background-size: cover;
+  }
+  .div1{
+    margin-left: 500px;
+  
+  }
+  .climate{
+    width: 800px;
+  height: 800px;
+  
+  
+  }
+  .photo{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #Plankton{
+  width: 800px;
+  height: 1000px;
+  
+  }
+  #imp{
+  width: 800px;
+  height: 900px;
+  
+  }
+  #water{ width:800px;
+   height: 900px;
+  
+  
+  }
+  .ocean{
+  width: 1500px;
+  height: 700px;
+  }
+  .p{
+    margin-left: 30px;
+
+    margin-right: 30px;
+  }
+  .ul{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+.image{
+        transition: filter 0.3s;
+        width: 300px;
+        height: 350px;
+      }
+.image:hover {
+        filter: brightness(150%);
+      }
