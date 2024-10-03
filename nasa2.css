@@ -14,7 +14,7 @@ body {
     align-items: center; /* Center items vertically */
     font-family: 'Times New Roman', serif;
     font-size: 6.4px; /* Maintain the given font size */
-    padding: 0 20px; /* Add padding to create space */
+    padding: 0 50px; /* Add padding to create space */
   }
   
   /* h1 styling */
@@ -42,12 +42,14 @@ body {
   nav {
     margin: 10px 0;
     text-align: center;
+    
   }
   nav a {
     margin: 0 15px;
     text-decoration: none;
     color: #4CAF50;
     cursor: pointer;
+    
   }
   section {
     padding: 20px;
@@ -119,3 +121,4 @@ body {
 .image:hover {
         filter: brightness(150%);
       }
+ 
